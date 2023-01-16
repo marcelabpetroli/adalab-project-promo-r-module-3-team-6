@@ -66,6 +66,10 @@ function App() {
       photo: '',
     });
     setAvatar('');
+    setDataResult({});
+    setDesignIsOpen(true);
+    setFillIsOpen(false);
+    setShareIsOpen(false);
     ls.clear();
   };
 
