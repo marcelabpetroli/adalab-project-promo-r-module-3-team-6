@@ -43,7 +43,7 @@ function PreviewCard(props) {
             </li>
             <li className={`preview__media__item palette${props.person.palette}-color3  js_media_item`}>
               <a
-                href={props.person.linkedin}
+                href={`https://www.linkedin.com/in/${props.person.linkedin}`}
                 target='_blank'
                 rel='noreferrer'
                 className='preview__media__link js_preview_link'
